@@ -1,0 +1,118 @@
+kye
+------------------------------------------
+This is a clone of the game Kye for Windows, originally by Colin
+Garbutt. It is a puzzle game, which is a little like the old
+falling-rocks puzzle games, and perhaps also inspired a little by
+Sokoban. But Kye has more variety of objects, and so is capable of
+posing quite complex puzzles.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  librsvg2-2.14.4-1
+  pygtk2-2.8.4-1
+  python-2.4.1-1
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.93-1
+  python-2.4.1-1
+
+Canonical website:
+  http://games.moria.org.uk/kye/pygtk
+
+-------------------------------------------
+
+Build instructions:
+  unpack kye-0.9-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kye-0.9-X.cygport all
+
+This will create:
+  /usr/src/kye-0.9-X-src.tar.bz2
+  /usr/src/kye-0.9-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/Kye
+  /usr/bin/Kye-edit
+  /usr/lib/python2.4/site-packages/kye/__init__.py
+  /usr/lib/python2.4/site-packages/kye/__init__.pyc
+  /usr/lib/python2.4/site-packages/kye/__init__.pyo
+  /usr/lib/python2.4/site-packages/kye/canvas.py
+  /usr/lib/python2.4/site-packages/kye/canvas.pyc
+  /usr/lib/python2.4/site-packages/kye/canvas.pyo
+  /usr/lib/python2.4/site-packages/kye/common.py
+  /usr/lib/python2.4/site-packages/kye/common.pyc
+  /usr/lib/python2.4/site-packages/kye/common.pyo
+  /usr/lib/python2.4/site-packages/kye/defaults.py
+  /usr/lib/python2.4/site-packages/kye/defaults.pyc
+  /usr/lib/python2.4/site-packages/kye/defaults.pyo
+  /usr/lib/python2.4/site-packages/kye/dialogs.py
+  /usr/lib/python2.4/site-packages/kye/dialogs.pyc
+  /usr/lib/python2.4/site-packages/kye/dialogs.pyo
+  /usr/lib/python2.4/site-packages/kye/editframe.py
+  /usr/lib/python2.4/site-packages/kye/editframe.pyc
+  /usr/lib/python2.4/site-packages/kye/editframe.pyo
+  /usr/lib/python2.4/site-packages/kye/frame.py
+  /usr/lib/python2.4/site-packages/kye/frame.pyc
+  /usr/lib/python2.4/site-packages/kye/frame.pyo
+  /usr/lib/python2.4/site-packages/kye/game.py
+  /usr/lib/python2.4/site-packages/kye/game.pyc
+  /usr/lib/python2.4/site-packages/kye/game.pyo
+  /usr/lib/python2.4/site-packages/kye/input.py
+  /usr/lib/python2.4/site-packages/kye/input.pyc
+  /usr/lib/python2.4/site-packages/kye/input.pyo
+  /usr/lib/python2.4/site-packages/kye/leveledit.py
+  /usr/lib/python2.4/site-packages/kye/leveledit.pyc
+  /usr/lib/python2.4/site-packages/kye/leveledit.pyo
+  /usr/lib/python2.4/site-packages/kye/objects.py
+  /usr/lib/python2.4/site-packages/kye/objects.pyc
+  /usr/lib/python2.4/site-packages/kye/objects.pyo
+  /usr/lib/python2.4/site-packages/kye/palette.py
+  /usr/lib/python2.4/site-packages/kye/palette.pyc
+  /usr/lib/python2.4/site-packages/kye/palette.pyo
+  /usr/lib/python2.4/site-packages/kye/stbar.py
+  /usr/lib/python2.4/site-packages/kye/stbar.pyc
+  /usr/lib/python2.4/site-packages/kye/stbar.pyo
+  /usr/share/doc/Cygwin/kye-0.9.README
+  /usr/share/doc/kye-0.9/COPYING
+  /usr/share/doc/kye-0.9/NEWS
+  /usr/share/doc/kye-0.9/README
+  /usr/share/kye/images.tar.gz
+  /usr/share/kye/intro.kye
+  /usr/share/kye/quests.kye
+  /usr/share/kye/template.kye
+
+------------------
+
+Port Notes:
+
+----- version 0.9-1 -----
+Version bump.
+
+----- version 0.8-1 -----
+Version bump.
+
+----- version 0.7-1 -----
+Version bump.
+
+----- version 0.6-1 -----
+Version bump.
+Source package is now cygport driven.
+
+----- version 0.5.0-1 -----
+Version bump.
+
+----- version 0.4.0-1 -----
+Version bump.
+
+----- version 0.1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

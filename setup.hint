@@ -1,0 +1,8 @@
+category: Games
+requires: cygwin librsvg2 pygtk2 python
+sdesc: "Falling-rocks puzzle game (clone of Win32 version by same name)"
+ldesc: "This is a clone of the game Kye for Windows, originally by Colin
+Garbutt. It is a puzzle game, which is a little like the old
+falling-rocks puzzle games, and perhaps also inspired a little by
+Sokoban. But Kye has more variety of objects, and so is capable of
+posing quite complex puzzles."
