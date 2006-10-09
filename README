@@ -7,15 +7,15 @@ Sokoban. But Kye has more variety of objects, and so is capable of
 posing quite complex puzzles.
 
 Runtime requirements:
-  cygwin-1.5.19-4
+  cygwin-1.5.21-2
   librsvg2-2.14.4-1
-  pygtk2-2.8.4-1
-  python-2.4.1-1
+  pygtk2-2.8.6-1
+  python-2.4.3-1
 
 Build requirements:
-  cygwin-1.5.19-4
-  cygport-0.1.93-1
-  python-2.4.1-1
+  cygwin-1.5.21-2
+  cygport-0.2.5-1
+  python-2.4.3-1
 
 Canonical website:
   http://games.moria.org.uk/kye/pygtk
@@ -23,15 +23,15 @@ Canonical website:
 -------------------------------------------
 
 Build instructions:
-  unpack kye-0.9-X-src.tar.bz2
+  unpack kye-0.9.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kye-0.9-X.cygport all
+  cygport ./kye-0.9.1-X.cygport all
 
 This will create:
-  /usr/src/kye-0.9-X-src.tar.bz2
-  /usr/src/kye-0.9-X.tar.bz2
+  /usr/src/kye-0.9.1-X-src.tar.bz2
+  /usr/src/kye-0.9.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -78,10 +78,10 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kye/stbar.py
   /usr/lib/python2.4/site-packages/kye/stbar.pyc
   /usr/lib/python2.4/site-packages/kye/stbar.pyo
-  /usr/share/doc/Cygwin/kye-0.9.README
-  /usr/share/doc/kye-0.9/COPYING
-  /usr/share/doc/kye-0.9/NEWS
-  /usr/share/doc/kye-0.9/README
+  /usr/share/doc/Cygwin/kye-0.9.1.README
+  /usr/share/doc/kye-0.9.1/COPYING
+  /usr/share/doc/kye-0.9.1/NEWS
+  /usr/share/doc/kye-0.9.1/README
   /usr/share/kye/images.tar.gz
   /usr/share/kye/intro.kye
   /usr/share/kye/quests.kye
@@ -90,6 +90,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.9.1-1 -----
+Version bump.
 
 ----- version 0.9-1 -----
 Version bump.
