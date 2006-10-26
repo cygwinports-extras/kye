@@ -23,15 +23,15 @@ Canonical website:
 -------------------------------------------
 
 Build instructions:
-  unpack kye-0.9.1-X-src.tar.bz2
+  unpack kye-0.9.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kye-0.9.1-X.cygport all
+  cygport ./kye-0.9.2-X.cygport all
 
 This will create:
-  /usr/src/kye-0.9.1-X-src.tar.bz2
-  /usr/src/kye-0.9.1-X.tar.bz2
+  /usr/src/kye-0.9.2-X-src.tar.bz2
+  /usr/src/kye-0.9.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -78,10 +78,10 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kye/stbar.py
   /usr/lib/python2.4/site-packages/kye/stbar.pyc
   /usr/lib/python2.4/site-packages/kye/stbar.pyo
-  /usr/share/doc/Cygwin/kye-0.9.1.README
-  /usr/share/doc/kye-0.9.1/COPYING
-  /usr/share/doc/kye-0.9.1/NEWS
-  /usr/share/doc/kye-0.9.1/README
+  /usr/share/doc/Cygwin/kye-0.9.2.README
+  /usr/share/doc/kye-0.9.2/COPYING
+  /usr/share/doc/kye-0.9.2/NEWS
+  /usr/share/doc/kye-0.9.2/README
   /usr/share/kye/images.tar.gz
   /usr/share/kye/intro.kye
   /usr/share/kye/quests.kye
@@ -90,6 +90,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.9.2-1 -----
+Version bump.
 
 ----- version 0.9.1-1 -----
 Version bump.
