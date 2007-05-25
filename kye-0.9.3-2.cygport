@@ -1,0 +1,6 @@
+inherit distutils
+
+USE_MANAGED_MOUNT=1
+
+HOMEPAGE="http://games.moria.org.uk/kye/pygtk"
+SRC_URI="http://games.moria.org.uk/kye/download/${P}.tar.gz"

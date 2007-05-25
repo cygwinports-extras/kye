@@ -9,13 +9,14 @@ posing quite complex puzzles.
 Runtime requirements:
   cygwin-1.5.24-2
   librsvg2-2.16.1-1
-  pygtk2-2.10.3-1
-  python-2.4.3-1
+  python-2.5.1-1
+  python-gobject2-2.12.3-2
+  python-gtk2-2.10.4-2
 
 Build requirements:
   cygwin-1.5.24-2
-  cygport-0.2.9-1
-  python-2.4.3-1
+  cygport-0.2.11-1
+  python-2.5.1-1
 
 Canonical website:
   http://games.moria.org.uk/kye/pygtk
@@ -39,45 +40,45 @@ Files included in the binary package:
 
   /usr/bin/Kye
   /usr/bin/Kye-edit
-  /usr/lib/python2.4/site-packages/kye/__init__.py
-  /usr/lib/python2.4/site-packages/kye/__init__.pyc
-  /usr/lib/python2.4/site-packages/kye/__init__.pyo
-  /usr/lib/python2.4/site-packages/kye/canvas.py
-  /usr/lib/python2.4/site-packages/kye/canvas.pyc
-  /usr/lib/python2.4/site-packages/kye/canvas.pyo
-  /usr/lib/python2.4/site-packages/kye/common.py
-  /usr/lib/python2.4/site-packages/kye/common.pyc
-  /usr/lib/python2.4/site-packages/kye/common.pyo
-  /usr/lib/python2.4/site-packages/kye/defaults.py
-  /usr/lib/python2.4/site-packages/kye/defaults.pyc
-  /usr/lib/python2.4/site-packages/kye/defaults.pyo
-  /usr/lib/python2.4/site-packages/kye/dialogs.py
-  /usr/lib/python2.4/site-packages/kye/dialogs.pyc
-  /usr/lib/python2.4/site-packages/kye/dialogs.pyo
-  /usr/lib/python2.4/site-packages/kye/editframe.py
-  /usr/lib/python2.4/site-packages/kye/editframe.pyc
-  /usr/lib/python2.4/site-packages/kye/editframe.pyo
-  /usr/lib/python2.4/site-packages/kye/frame.py
-  /usr/lib/python2.4/site-packages/kye/frame.pyc
-  /usr/lib/python2.4/site-packages/kye/frame.pyo
-  /usr/lib/python2.4/site-packages/kye/game.py
-  /usr/lib/python2.4/site-packages/kye/game.pyc
-  /usr/lib/python2.4/site-packages/kye/game.pyo
-  /usr/lib/python2.4/site-packages/kye/input.py
-  /usr/lib/python2.4/site-packages/kye/input.pyc
-  /usr/lib/python2.4/site-packages/kye/input.pyo
-  /usr/lib/python2.4/site-packages/kye/leveledit.py
-  /usr/lib/python2.4/site-packages/kye/leveledit.pyc
-  /usr/lib/python2.4/site-packages/kye/leveledit.pyo
-  /usr/lib/python2.4/site-packages/kye/objects.py
-  /usr/lib/python2.4/site-packages/kye/objects.pyc
-  /usr/lib/python2.4/site-packages/kye/objects.pyo
-  /usr/lib/python2.4/site-packages/kye/palette.py
-  /usr/lib/python2.4/site-packages/kye/palette.pyc
-  /usr/lib/python2.4/site-packages/kye/palette.pyo
-  /usr/lib/python2.4/site-packages/kye/stbar.py
-  /usr/lib/python2.4/site-packages/kye/stbar.pyc
-  /usr/lib/python2.4/site-packages/kye/stbar.pyo
+  /usr/lib/python2.5/site-packages/kye/__init__.py
+  /usr/lib/python2.5/site-packages/kye/__init__.pyc
+  /usr/lib/python2.5/site-packages/kye/__init__.pyo
+  /usr/lib/python2.5/site-packages/kye/canvas.py
+  /usr/lib/python2.5/site-packages/kye/canvas.pyc
+  /usr/lib/python2.5/site-packages/kye/canvas.pyo
+  /usr/lib/python2.5/site-packages/kye/common.py
+  /usr/lib/python2.5/site-packages/kye/common.pyc
+  /usr/lib/python2.5/site-packages/kye/common.pyo
+  /usr/lib/python2.5/site-packages/kye/defaults.py
+  /usr/lib/python2.5/site-packages/kye/defaults.pyc
+  /usr/lib/python2.5/site-packages/kye/defaults.pyo
+  /usr/lib/python2.5/site-packages/kye/dialogs.py
+  /usr/lib/python2.5/site-packages/kye/dialogs.pyc
+  /usr/lib/python2.5/site-packages/kye/dialogs.pyo
+  /usr/lib/python2.5/site-packages/kye/editframe.py
+  /usr/lib/python2.5/site-packages/kye/editframe.pyc
+  /usr/lib/python2.5/site-packages/kye/editframe.pyo
+  /usr/lib/python2.5/site-packages/kye/frame.py
+  /usr/lib/python2.5/site-packages/kye/frame.pyc
+  /usr/lib/python2.5/site-packages/kye/frame.pyo
+  /usr/lib/python2.5/site-packages/kye/game.py
+  /usr/lib/python2.5/site-packages/kye/game.pyc
+  /usr/lib/python2.5/site-packages/kye/game.pyo
+  /usr/lib/python2.5/site-packages/kye/input.py
+  /usr/lib/python2.5/site-packages/kye/input.pyc
+  /usr/lib/python2.5/site-packages/kye/input.pyo
+  /usr/lib/python2.5/site-packages/kye/leveledit.py
+  /usr/lib/python2.5/site-packages/kye/leveledit.pyc
+  /usr/lib/python2.5/site-packages/kye/leveledit.pyo
+  /usr/lib/python2.5/site-packages/kye/objects.py
+  /usr/lib/python2.5/site-packages/kye/objects.pyc
+  /usr/lib/python2.5/site-packages/kye/objects.pyo
+  /usr/lib/python2.5/site-packages/kye/palette.py
+  /usr/lib/python2.5/site-packages/kye/palette.pyc
+  /usr/lib/python2.5/site-packages/kye/palette.pyo
+  /usr/lib/python2.5/site-packages/kye/stbar.py
+  /usr/lib/python2.5/site-packages/kye/stbar.pyc
+  /usr/lib/python2.5/site-packages/kye/stbar.pyo
   /usr/share/doc/Cygwin/kye-0.9.3.README
   /usr/share/doc/kye-0.9.3/COPYING
   /usr/share/doc/kye-0.9.3/NEWS
